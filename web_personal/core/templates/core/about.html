@@ -1,0 +1,62 @@
+
+{% extends "core/base.html" %}
+
+{% load static %}
+
+{% block title %} Acerca de {% endblock %}
+
+{% block background %} {% static 'core/img/about-bg.jpg' %} {% endblock %}
+
+{% block headers %}
+
+<h1>Acerca de</h1>
+<span class="subheading">Biografía</span>
+
+{% endblock %}
+
+{% block content %}
+
+<div class="row">
+    <div class="col-lg-3 col-md-4 offset-lg-1">
+        <div class="card">
+            <div class="card-body text-center">
+                <div>
+                    <img class="img-fluid avatar" src="{% static 'core/img/avatar.jpg' %}" alt="">
+                </div>
+                <hr class="my-4">
+                <p class="card-text">
+                    <em>Estudiante con conocimientos en lenguajes de programación como Java y Python. Cursando actualmente desarrollo web.
+                        En constante capacitación.
+                    </em>
+                </p>
+            </div>
+            <div class="card-footer bg-transparent text-center">
+                <a class="px-1 fa-lg moon-ic"><i class="fa fa-moon-o"></i></a>
+                <a class="px-1 fa-lg laptop-ic"><i class="fa fa-laptop"> </i></a>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-7 col-md-8">
+        <h4 class="section-heading">Natalia Meneses Soza</h4>
+        <br>
+        <p>Hola, veo que llegaste hasta acá. Lo que sigue es material en vías de encriptar, ¡vamos!...</p>
+        <br>
+        <p>Mi segundo nombre es Estefanía, nací en el barrio de Balvanera ("Once" para sus residentes)
+            y tengo la edad que tengo. Esa misma.
+        </p>
+        <br>
+        <p>Vivo en Parque Patricios ahora y desde siempre. O al menos desde que era chica y venía a merendar
+            a la vereda del PH al que más tarde me terminé mudando y que -por aquel entonces- era la casa de unos familiares 
+            muy queridos.
+        </p>
+        <br>
+        <p>Soy la gurisa con varios litros de café encima; la que lee los manuales de funcionamiento, las etiquetas de los envases 
+            y los carteles que aparecen en la PC cuando se instala algo; la que se llevó Educación Física en 5to año del secundario.
+            Ah, no.
+        </p>
+        <br>
+        <p>Bueno, sí. Ahí va.</p>
+    </div>
+</div>
+
+{% endblock %}

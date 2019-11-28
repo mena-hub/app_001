@@ -1,0 +1,18 @@
+
+{% extends "core/base.html" %}
+
+{% load static %}
+
+{% block title %} Portada {% endblock %}
+
+{% block background %} {% static 'core/img/home-bg.jpg' %} {% endblock %}
+
+{% block headers %}
+
+<h1>Natalia Meneses Soza</h1>
+<span class="subheading">Estudiante de Software, especializada en desarrollo web</span>
+<div class="button-about">
+    <a class="btn btn-primary btn-lg btn-rounded" href="{% url 'about' %}">Te cuento que</a>
+</div>
+
+{% endblock %}

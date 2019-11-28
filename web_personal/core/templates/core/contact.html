@@ -1,0 +1,43 @@
+
+{% extends "core/base.html" %}
+
+{% load static %}
+
+{% block title %} Contacto {% endblock %}
+
+{% block background %} {% static 'core/img/contact-bg.jpg' %} {% endblock %}
+
+{% block headers %}
+
+<h1>Contacto</h1>
+<span class="subheading">Asesoría</span>
+
+{% endblock %}
+
+{% block content %}
+
+<div class="row">
+    <div class="col-lg-8 col-md-10 mx-auto text-center">
+        <p>¿Querés comunicarte?</p>
+        <p>Genial, dejá un mensaje y te respondo a la brevedad.</p>
+        <br>
+        <div class="card-deck">
+            <div class="card">
+                <div class="card-body text-center">
+                    <h6 class="card-title">Teléfono:</h6>
+                    <hr class="my-4">
+                    <p>+54 11 3620-0867</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body text-center">
+                    <h6 class="card-title">Honorarios:</h6>
+                    <hr class="my-4">
+                    <p>A convenir.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
