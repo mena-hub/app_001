@@ -25,7 +25,7 @@ SECRET_KEY = 'x@pieh=073(xw8n+k$5*-u62vmryh^2mgn%m(q)bre87y(uyph'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['szmsnatalia.pythonanywhere.com', 'localhost']
 
 
 # Application definition
