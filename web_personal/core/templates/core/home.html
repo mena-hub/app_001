@@ -1,15 +1,42 @@
-
 {% extends "core/base.html" %}
-
 {% load static %}
-
-{% block title %} Portada {% endblock %}
-
-{% block background %} {% static 'core/img/home-bg.jpg' %} {% endblock %}
+{% block title %}Portada{% endblock %}
 
 {% block headers %}
+<h1 class="text-uppercase">001/Web</h1>
+<span class="subheading">Bienvenido</span>
+{% endblock %}
 
-<h1>Natalia Meneses Soza</h1>
-<span class="subheading">Estudiante de Software, especializada en desarrollo web</span>
-
+{% block content %}
+<div class="section border-bottom">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-lg-12">
+                <h5>Esta página es tuya, presentate</h5>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="section border-bottom">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-lg-12">
+                <h5>Mostrá eso que creés destacable</h5>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="section">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-lg-12">
+                <h5>Facilitá un canal de consultas</h5>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="py-5 img-home" style="background-image: url('/static/core/img/home-bg.png');">
+    <div class="overlay"></div>
+    <div style="padding: 190px 0px;"></div>
+</div>
 {% endblock %}
