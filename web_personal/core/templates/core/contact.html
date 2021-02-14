@@ -1,43 +1,58 @@
-
 {% extends "core/base.html" %}
-
 {% load static %}
-
-{% block title %} Contacto {% endblock %}
-
-{% block background %} {% static 'core/img/contact-bg.jpg' %} {% endblock %}
+{% block title %}Contacto{% endblock %}
 
 {% block headers %}
-
-<h1>Contacto</h1>
-<span class="subheading">Asesoría</span>
-
+<h1 class="text-uppercase">004/GPS</h1>
+<span class="subheading">Conectar</span>
 {% endblock %}
 
 {% block content %}
-
-<div class="row">
-    <div class="col-lg-8 col-md-10 mx-auto text-center">
-        <p>¿Querés comunicarte?</p>
-        <p>Genial, dejá un mensaje y te respondo a la brevedad.</p>
-        <br>
-        <div class="card-deck">
-            <div class="card">
-                <div class="card-body text-center">
-                    <h6 class="card-title">Teléfono:</h6>
-                    <hr class="my-4">
-                    <p>+54 11 3620-0867</p>
+<div class="section border-bottom">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto pb-5">
+                <div class="section-heading">
+                    <h4 class="text-dark text-uppercase">Ej. data</h4>
                 </div>
-            </div>
-            <div class="card">
-                <div class="card-body text-center">
-                    <h6 class="card-title">Honorarios:</h6>
-                    <hr class="my-4">
-                    <p>A convenir.</p>
+                <p>We are all connected; To each other, biologically. To the earth, chemically. To the rest of the universe atomically.</p>
+                <div class="section-contact py-1" style="margin: 30px 0;">
+                    <div class="clearfix">
+                        <div class="details">
+                            <div class="h4">Teléfono</div> 
+                            (+5411) 1234 5678
+                            <br>(011) 1234 5678
+                        </div>
+                    </div>
+                    <div class="clearfix mt-30">
+                        <div class="details">
+                            <div class="h4">Correo</div> 
+                            usuario@dominio.com
+                        </div>
+                    </div>
+                    <div class="clearfix mt-30">
+                        <div class="details">
+                            <div class="h4">Honorarios</div>
+                            A convenir
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
+<div class="section border-bottom">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+                <div class="d-flex align-items-center">
+                    <div class="lead"><strong>x formulario</strong></strong></div>
+                    <div class="ml-auto">
+                        <input class="btn btn-outline-dark rounded-0 px-4" type="submit" value="Tu consulta">
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+</div>
 {% endblock %}
