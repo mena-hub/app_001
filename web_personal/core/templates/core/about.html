@@ -1,62 +1,28 @@
-
 {% extends "core/base.html" %}
-
 {% load static %}
-
-{% block title %} Acerca de {% endblock %}
-
-{% block background %} {% static 'core/img/about-bg.jpg' %} {% endblock %}
+{% block title %}Acerca de{% endblock %}
 
 {% block headers %}
-
-<h1>Acerca de</h1>
-<span class="subheading">Biografía</span>
-
+<h1 class="text-uppercase">002/Vos</h1>
+<span class="subheading">Información</span>
 {% endblock %}
 
 {% block content %}
-
-<div class="row">
-    <div class="col-lg-3 col-md-4 offset-lg-1">
-        <div class="card">
-            <div class="card-body text-center">
-                <div>
-                    <img class="img-fluid avatar" src="{% static 'core/img/avatar.jpg' %}" alt="">
+<div class="section border-bottom">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto pb-5">
+                <div class="text-dark">
+                    <div class="section-heading">
+                        <img class="avatar mb-30" src="{% static 'core/img/avatar.png' %}">
+                        <h4 class="text-uppercase">Ej. bio</h4>
+                    </div>
+                    <p>We choose to go to the moon in this decade and do the other things, not because they are easy, but because they are hard, because that goal will serve to organize and measure the best of our energies and skills, because that challenge is one that we are willing to accept, one we are unwilling to postpone, and one which we intend to win.</p>
+                    <p>There can be no thought of finishing for "aiming for the stars". Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
+                    <p>As I stand out here in the wonders of the unknown at Hadley, I sort of realize there's a fundamental truth to our nature, Man must explore... and this is exploration at its greatest.</p>
                 </div>
-                <hr class="my-4">
-                <p class="card-text">
-                    <em>Estudiante con conocimientos en lenguajes de programación como Java y Python. Cursando actualmente desarrollo web.
-                        En constante capacitación.
-                    </em>
-                </p>
-            </div>
-            <div class="card-footer bg-transparent text-center">
-                <a class="px-1 fa-lg moon-ic"><i class="fa fa-moon-o"></i></a>
-                <a class="px-1 fa-lg laptop-ic"><i class="fa fa-laptop"> </i></a>
             </div>
         </div>
     </div>
-    <div class="col-lg-7 col-md-8">
-        <h4 class="section-heading">Natalia Meneses Soza</h4>
-        <br>
-        <p>Hola, veo que llegaste hasta acá. Lo que sigue es material en vías de encriptar, ¡vamos!...</p>
-        <br>
-        <p>Mi segundo nombre es Estefanía, nací en el barrio de Balvanera ("Once" para sus residentes)
-            y tengo la edad que tengo. Esa misma.
-        </p>
-        <br>
-        <p>Vivo en Parque Patricios ahora y desde siempre. O al menos desde que era chica y venía a merendar
-            a la vereda del PH al que más tarde me terminé mudando y que -por aquel entonces- era la casa de unos familiares 
-            muy queridos.
-        </p>
-        <br>
-        <p>Soy la gurisa con varios litros de café encima; la que lee los manuales de funcionamiento, las etiquetas de los envases 
-            y los carteles que aparecen en la PC cuando se instala algo; la que se llevó Educación Física en 5to año del secundario.
-            Ah, no.
-        </p>
-        <br>
-        <p>Bueno, sí. Ahí va.</p>
-    </div>
 </div>
-
 {% endblock %}
