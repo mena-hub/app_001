@@ -1,0 +1,133 @@
+body,  
+header.masthead, .section
+.navbar, .footer {
+    background-color: rgb(220, 200, 107);
+    background-image: url("../img/bg-texture.png"); 
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    color: #343a40;
+}
+
+.navbar, .section.redes, .details, .btn, .footer {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 30px;
+    line-height: 1.3em;
+}
+
+p {
+    line-height: 1.5;
+    margin: 30px 0;
+    color: #7b7873;
+}
+
+p a {
+    text-decoration: underline;
+}
+
+a {
+    color: #343a40;
+    transition: all 0.2s;
+}
+
+a:focus, a:hover {
+    color: #343a40;
+    text-decoration-color: #ec5033;
+
+}
+
+.section-heading {
+    padding-top: 5rem;
+}
+
+header.masthead .site-heading {
+    color: #343a40;
+    padding: 150px 0 150px;
+}
+
+@media only screen and (min-width: 768px) {
+    header.masthead .site-heading {
+        padding: 150px 0;
+    }
+}
+
+header.masthead .site-heading {
+    text-align: center;
+}
+
+header.masthead .site-heading h1 {
+    font-size: 50px;
+    margin-top: 0;
+}
+
+header.masthead .site-heading .subheading {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.1;
+    display: block;
+    margin: 10px 0 0;
+}
+
+@media only screen and (min-width: 768px) {
+    header.masthead .site-heading h1 {
+        font-size: 80px;
+    }
+}
+
+.section {
+    padding: 4rem 0;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #343a40;
+
+}
+
+.border-top {
+    border-top: 1px solid #343a40;
+}
+
+.img-home {
+    background: no-repeat center center;
+    position: relative;
+    background-size: cover;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+img.avatar {
+    min-width: 150px;
+    width: 150px;
+    height: 150px;
+}
+
+.img-home .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #343a40;
+    opacity: 0.2;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mt-30 {
+    margin-top: 30px !important;
+}
