@@ -40,24 +40,7 @@ Bajón, man.
 
 Modificar el mensaje de uno o más commits después de haber realizado un push:
 
-```zsh 
-» git rebase -i HEAD~6 # List of the last n commits
-```
-- Reemplazar `pick` por `reword`
+**BORRADO**.
 
-```zsh
-» pick b5a9997 Upload image: caffetiera.png
-```
-```zsh
-» reword b5a9997 Upload image: caffetiera.png
-```
-- Guardar y cerrar
-
-```zsh
-Upload image: caffettiera.png # New commit message
-```
-- Volver a guardar y cerrar
-
-```zsh
-» git push --force origin master # Force-push amended commits
-```
+La razón del porqué puede encontrarse en este [LINK](https://docs.github.com/en/github/committing-changes-to-your-project/changing-a-commit-message).  
+El recuadro en rojo que dice *We strongly discourage force pushing(...)* :skull:
